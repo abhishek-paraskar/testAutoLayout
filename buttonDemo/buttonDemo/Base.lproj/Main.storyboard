@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Opino View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="OpinoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rvg-OE-5PT"/>
+                        <viewControllerLayoutGuide type="bottom" id="JSW-or-tWs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bab-jR-gTj">
+                                <rect key="frame" x="0.0" y="180" width="320" height="388"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="em5-3q-GgB" userLabel="1">
+                                        <rect key="frame" x="145" y="11" width="30" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.6549019814" green="0.11372549830000001" blue="0.11372549830000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="1">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2d-tZ-mFI" userLabel="3">
+                                        <rect key="frame" x="145" y="127" width="30" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.6549019814" green="0.11372549830000001" blue="0.11372549830000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="3">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rP2-5a-Po9" userLabel="4">
+                                        <rect key="frame" x="145" y="230" width="30" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.6549019814" green="0.11372549830000001" blue="0.11372549830000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="4">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="T2d-tZ-mFI" firstAttribute="leading" secondItem="rP2-5a-Po9" secondAttribute="leading" id="59H-ho-hpw"/>
+                                    <constraint firstItem="rP2-5a-Po9" firstAttribute="top" secondItem="T2d-tZ-mFI" secondAttribute="bottom" constant="43" id="LaP-9d-xwu"/>
+                                    <constraint firstItem="em5-3q-GgB" firstAttribute="top" secondItem="Bab-jR-gTj" secondAttribute="top" constant="11" id="bbQ-aL-UXX"/>
+                                    <constraint firstItem="em5-3q-GgB" firstAttribute="leading" secondItem="T2d-tZ-mFI" secondAttribute="leading" id="eoa-dZ-7sO"/>
+                                    <constraint firstItem="rP2-5a-Po9" firstAttribute="centerX" secondItem="Bab-jR-gTj" secondAttribute="centerX" id="qIY-1f-R5W"/>
+                                    <constraint firstItem="T2d-tZ-mFI" firstAttribute="top" secondItem="em5-3q-GgB" secondAttribute="bottom" constant="56" id="tYz-pb-UN2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bab-jR-gTj" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="7Vi-A3-oqv"/>
+                            <constraint firstAttribute="bottom" secondItem="Bab-jR-gTj" secondAttribute="bottom" id="Ep9-Fd-BbW"/>
+                            <constraint firstAttribute="trailing" secondItem="Bab-jR-gTj" secondAttribute="trailing" id="NcZ-it-qjM"/>
+                            <constraint firstItem="Bab-jR-gTj" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="180" id="Q8Z-pL-WMB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
